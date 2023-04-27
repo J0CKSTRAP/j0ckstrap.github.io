@@ -41327,16 +41327,13 @@ a.u-link.u-text-hover-grey-90:hover {
  .u-header {
   background-image: url("images/agshdfj.png");
   background-position: 50% 50%;
-}
-
-.u-header .u-sheet-1 {
   min-height: 70px;
 }
 
 .u-header .u-image-1 {
   width: 185px;
   height: 36px;
-  margin: 17px auto 0 -79px;
+  margin: 17px auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -41345,7 +41342,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -36px auto 17px 70px;
+  margin: -36px auto 17px calc(((100% - 1140px) / 2) + 70px);
 }
 
 .u-header .u-nav-1 {
@@ -41358,7 +41355,7 @@ a.u-link.u-text-hover-grey-90:hover {
   letter-spacing: 0px;
 }
 @media (max-width: 1199px) {
-  .u-header .u-sheet-1 {
+   .u-header {
     min-height: 58px;
   }
 
@@ -41369,25 +41366,39 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-menu-1 {
     width: auto;
+    margin-top: -36px;
+    margin-left: calc(((100% - 940px) / 2) + 70px);
   }
 }
 @media (max-width: 991px) {
-  .u-header .u-sheet-1 {
+   .u-header {
     min-height: 44px;
+  }
+
+  .u-header .u-menu-1 {
+    margin-left: calc(((100% - 720px) / 2) + 70px);
   }
 }
 @media (max-width: 767px) {
-  .u-header .u-sheet-1 {
+   .u-header {
     min-height: 33px;
   }
 
   .u-header .u-image-1 {
     width: auto;
   }
+
+  .u-header .u-menu-1 {
+    margin-left: calc(((100% - 540px) / 2) + 70px);
+  }
 }
 @media (max-width: 575px) {
-  .u-header .u-sheet-1 {
+   .u-header {
     min-height: 21px;
+  }
+
+  .u-header .u-menu-1 {
+    margin-left: calc(((100% - 340px) / 2) + 70px);
   }
 }
  .u-footer {
