@@ -17,66 +17,108 @@
 
 .u-section-1 .u-list-1 {
   grid-template-rows: auto;
-  width: 1140px;
-  margin: 39px auto 60px;
+  margin: 39px auto 0;
 }
 
-.u-section-1 .u-repeater-1 {
-  grid-template-columns: calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px);
-  grid-gap: 10px 10px;
-  min-height: 287px;
+.u-section-1 .u-countdown-1 {
+  margin: -23px auto 60px;
+  padding: 14px 108px;
 }
 
-.u-section-1 .u-container-layout-1 {
-  padding: 0 30px;
+.u-section-1 .u-countdown-counter-1 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
 }
 
-.u-section-1 .u-text-2 {
-  width: 127px;
-  margin: 0 auto;
+.u-section-1 .u-countdown-label-1 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
 }
 
-.u-section-1 .u-text-3 {
-  margin: 21px 1px 0;
+.u-section-1 .u-countdown-separator-1 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
 }
 
-.u-section-1 .u-container-layout-2 {
-  padding: 0 30px;
+.u-section-1 .u-countdown-counter-2 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
 }
 
-.u-section-1 .u-text-4 {
-  width: 127px;
-  margin: 0 auto;
+.u-section-1 .u-countdown-label-2 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
 }
 
-.u-section-1 .u-text-5 {
-  margin: 21px 1px 0;
+.u-section-1 .u-countdown-separator-2 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
 }
 
-.u-section-1 .u-container-layout-3 {
-  padding: 0 30px;
+.u-section-1 .u-countdown-counter-3 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
 }
 
-.u-section-1 .u-text-6 {
-  width: 127px;
-  margin: 0 auto;
+.u-section-1 .u-countdown-label-3 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
 }
 
-.u-section-1 .u-text-7 {
-  margin: 21px 1px 0;
+.u-section-1 .u-countdown-separator-3 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
 }
 
-.u-section-1 .u-container-layout-4 {
-  padding: 0 30px;
+.u-section-1 .u-countdown-counter-4 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
 }
 
-.u-section-1 .u-text-8 {
-  width: 127px;
-  margin: 0 auto;
+.u-section-1 .u-countdown-label-4 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
 }
 
-.u-section-1 .u-text-9 {
-  margin: 21px 1px 0;
+.u-section-1 .u-countdown-separator-4 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
+}
+
+.u-section-1 .u-countdown-counter-5 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
+}
+
+.u-section-1 .u-countdown-label-5 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.u-section-1 .u-countdown-separator-5 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
+}
+
+.u-section-1 .u-countdown-counter-6 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1;
+}
+
+.u-section-1 .u-countdown-label-6 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
 }
 
 @media (max-width: 1199px) {
@@ -89,32 +131,8 @@
   }
 
   .u-section-1 .u-list-1 {
-    width: 940px;
-  }
-
-  .u-section-1 .u-repeater-1 {
-    grid-template-columns: repeat(4, calc(25% - 7.5px));
-    min-height: 235px;
-  }
-
-  .u-section-1 .u-text-3 {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-1 .u-text-5 {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-1 .u-text-7 {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-1 .u-text-9 {
-    margin-left: 0;
-    margin-right: 0;
+    margin-right: initial;
+    margin-left: initial;
   }
 }
 
@@ -122,48 +140,11 @@
   .u-section-1 .u-sheet-1 {
     min-height: 525px;
   }
-
-  .u-section-1 .u-list-1 {
-    width: 720px;
-  }
-
-  .u-section-1 .u-repeater-1 {
-    grid-template-columns: repeat(2, calc(50% - 5px));
-    min-height: 743px;
-  }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
     min-height: 394px;
-  }
-
-  .u-section-1 .u-list-1 {
-    width: 540px;
-  }
-
-  .u-section-1 .u-repeater-1 {
-    grid-template-columns: 100%;
-  }
-
-  .u-section-1 .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-section-1 .u-container-layout-2 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-section-1 .u-container-layout-3 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-section-1 .u-container-layout-4 {
-    padding-left: 10px;
-    padding-right: 10px;
   }
 }
 
@@ -176,8 +157,8 @@
     font-size: 2.25rem;
   }
 
-  .u-section-1 .u-list-1 {
-    width: 340px;
+  .u-section-1 .u-countdown-1 {
+    margin-top: 18px;
   }
 }
 
