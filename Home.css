@@ -1,7 +1,7 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(26,26,26,0.55), rgba(26,26,26,0.55)), url("images/northern-lights-aurora-borealis-fairbanks-alaska-via-magazine-aaa-bucket-list-experience-shutterstock_695456167.jpg.jpg");
   background-position: 50% 50%;
-  min-height: 899px;
+  min-height: 50vw;
 }
 
 .u-section-1 .u-text-1 {
@@ -43,93 +43,40 @@
   height: auto;
   min-height: 507px;
   margin-top: 89px;
-  margin-bottom: 0;
+  margin-bottom: 60px;
   margin-left: 0;
   width: 352px;
 }
 
 @media (max-width: 1199px) {
-   .u-section-1 {
-    min-height: 741px;
-  }
-
   .u-section-1 .u-text-1 {
-    margin-top: 60px;
+    margin-left: calc(((100% - 940px) / 2) + 284px);
   }
 
   .u-section-1 .u-text-2 {
     transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-    margin-left: calc(((100% - 1140px) / 2) + 318px);
-  }
-
-  .u-section-1 .u-text-3 {
-    width: 309px;
-    margin-right: calc(((100% - 1140px) / 2) + 469px);
-    margin-left: calc(((100% - 1140px) / 2) + 362px);
-  }
-
-  .u-section-1 .u-btn-1 {
-    margin-left: calc(((100% - 1140px) / 2) + 434px);
-  }
-
-  .u-section-1 .u-custom-html-1 {
-    margin-right: calc(((100% - 1140px) / 2) + 912px);
-    margin-left: calc(((100% - 1140px) / 2) + -24px);
   }
 }
 
 @media (max-width: 991px) {
-   .u-section-1 {
-    min-height: 568px;
-  }
-
-  .u-section-1 .u-text-3 {
-    margin-right: calc(((100% - 1140px) / 2) + 420px);
-    margin-left: calc(((100% - 1140px) / 2) + 411px);
-  }
-
-  .u-section-1 .u-custom-html-1 {
-    margin-left: calc(((100% - 1140px) / 2) + 86px);
+  .u-section-1 .u-text-1 {
+    margin-left: calc(((100% - 720px) / 2) + 218px);
   }
 }
 
 @media (max-width: 767px) {
-   .u-section-1 {
-    min-height: 426px;
-  }
-
-  .u-section-1 .u-text-3 {
-    margin-right: calc(((100% - 1140px) / 2) + 380px);
-    margin-left: calc(((100% - 1140px) / 2) + 451px);
-  }
-
-  .u-section-1 .u-custom-html-1 {
-    margin-left: calc(((100% - 1140px) / 2) + 176px);
+  .u-section-1 .u-text-1 {
+    margin-left: calc(((100% - 540px) / 2) + 164px);
   }
 }
 
 @media (max-width: 575px) {
-   .u-section-1 {
-    min-height: 268px;
-  }
-
   .u-section-1 .u-text-1 {
     font-size: 2.25rem;
-    margin-left: calc(((100% - 1140px) / 2) + 400px);
-  }
-
-  .u-section-1 .u-text-2 {
-    margin-left: calc(((100% - 1140px) / 2) + 400px);
-  }
-
-  .u-section-1 .u-text-3 {
-    margin-right: calc(((100% - 1140px) / 2) + 336px);
-    margin-left: calc(((100% - 1140px) / 2) + 495px);
+    margin-left: calc(((100% - 340px) / 2) + 103px);
   }
 
   .u-section-1 .u-custom-html-1 {
-    margin-right: calc(((100% - 1140px) / 2) + 864px);
-    margin-left: calc(((100% - 1140px) / 2) + 276px);
     width: 340px;
   }
 }
