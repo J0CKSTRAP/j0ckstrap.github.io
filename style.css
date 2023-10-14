@@ -1,0 +1,28 @@
+h1 {
+    
+    color: rgb(255, 255, 255);
+    font: 15px inherit;
+    
+    text-align: center
+    
+    }
+    h3 {
+    
+        color: rgb(0, 0, 0);
+        font: 15px inherit;
+        
+        text-align: center
+        
+        }
+
+    body {
+        background-image: url("rain.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #cccccc;
+        padding: 200px 0;
+        position: relative;
+      
+       }
+
+    
