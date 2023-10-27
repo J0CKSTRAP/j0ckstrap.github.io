@@ -3,23 +3,20 @@ h1 {
     color: rgb(255, 255, 255);
     font: 15px inherit;
     
-    text-align: center
+    text-align: left
     
     }
-    h3 {
+    h6 {
     
         color: rgb(0, 0, 0);
         font: 15px inherit;
         
-        text-align: center
+        text-align: left
         
         }
 
     body {
-        background-image: url("rain.gif");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-color: #cccccc;
+        background-color: #181818;
         position: relative;
       
        }
