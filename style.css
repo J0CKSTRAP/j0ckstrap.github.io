@@ -22,11 +22,11 @@ h2 {
 
 div {
     display: block;
-    border: 5px outset white;
+    border: 2px outset white;
     background-color: black;
     text-align: center;
     max-width: 99%;
-    opacity: 0.5
+    opacity: 0.1
 }
 link-button {
     opacity: 0
